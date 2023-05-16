@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <style>
+            .form{
+                margin: 10px;
+            }
+            label{
+                width: 100px;
+                text-align: right;
+                display: inline-block;
+                padding-right: 5px;
+            }
+            fieldset {
+                margin: 15px 0px;
+				width: 800px;
+                border-radius: 15px;
+                border-color: rgb(15, 56, 117);
+                color: rgb(72, 118, 187);
+            }
+			button{
+				margin: 5px;
+				font-size: large;
+				background-color: aliceblue;
+				border-color: rgb(172, 216, 252);
+				border-radius: 10px;
+				padding: 2px 20px;
+				color: rgb(72, 118, 187);
+			}
+			input{
+				border-color: rgb(172, 216, 252);
+				border-radius: 10px;
+				
+			}
+			h1 {
+				font-family: Arial, Helvetica, sans-serif;
+				color: rgb(72, 118, 187);
+			}
+        </style>
+		<h1>Formulário de Cadastro</h1>
+		<form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="form">
+                    <label for="">Nome: </label><input type="text">
+                    <label for="">E-mail: </label><input type="email"><br>
+                </div>
+                <div class="form">
+                    <label for="">Profissão: </label><input type="text">
+                    <label for="">Empresa: </label><input type="text">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Endereço</legend>
+                <div class="form">
+                    <label for="">Endereço: </label><input type="text">
+                    <label for="">Nº: </label><input type="number"><br>
+                </div>
+                <div class="form">
+                    <label for="">Bairro: </label><input type="text"><br>
+                </div>
+                <div class="form">
+                    <label for="">Cidade: </label><input type="text"><br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contato</legend>
+                <div class="form">
+                    <label for="">Celular: </label><input type="text">
+                    <label for="">Whatsapp: </label><input type="text"><br>
+                </div>
+                <div class="form">
+                    <label for="">Linkedin: </label><input type="text">
+                    <label for="">Github: </label><input type="text">
+                </div>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+		</form>
+
+        <script src="" async defer></script>
+    </body>
+</html>
