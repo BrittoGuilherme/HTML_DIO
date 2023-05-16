@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Tabelas</title>
+</head>
+<body>
+
+    <style>
+        table tr:nth-child(even) {
+            background-color: azure;
+        }
+        tr:hover td{
+            background-color: rgb(16, 201, 247);
+        }
+        th {
+            background-color: cornflowerblue;
+            color: white;
+        }
+        tfoot{
+            background-color: lightblue;
+        }
+        table {
+            border: solid 1px;
+            border-color: lightblue;
+        }
+        caption {
+            font-size: 25px;
+            margin: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: cornflowerblue;
+        }
+    </style>
+
+    <table summary="Serve para descrever o conteúdo da tabela para leitores de acessibilidade" border="0" align="center" width="250" cellspacing="0" cellpadding="5">
+
+        <caption>Tabela de Idades</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Minha Lista</th>
+            </tr>
+            <tr>
+                <th title="nome completo">Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Guilherme</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>Jessica</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>Julia</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>20</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
