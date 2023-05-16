@@ -12,7 +12,30 @@ ul li a{
     border-radius: 3px;
     transition: background-color 0.3s ease;
 }
-
+form{
+    margin: 10px;
+}
+label{
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+input{
+    border-color: rgb(172, 216, 252);
+    border-radius: 10px;
+    display: inline-block;
+    padding-left: 50px;
+}
+button{
+    margin: 5px;
+    font-size: large;
+    background-color: aliceblue;
+    border-color: rgb(172, 216, 252);
+    border-radius: 10px;
+    padding: 2px 20px;
+    color: rgb(72, 118, 187);
+}
 ul li a:hover{
     background-color: #555;
 }
@@ -22,7 +45,44 @@ ul li{
 ul{
     width: 100%;
 }
+table{
+    border: solid 1px;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    min-width: 400px;
+    cursor: default;
+}
+table td, table th {
+    border: 1px solid black;
+    padding: 5px;
+  }
+table tr:nth-child(even){
+    background-color: lightgray;
+}
+table tr:hover{
+    background-color: gray;
+}
+table th{
+    background-color: #333;
+    color: #fff;
+}
 
+.h1index{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 68, 3);
+}
+.h2index{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 68, 3);
+}
+.h3index {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #555;
+}
 .wrapper {
     width: 1200px;
     display: flex;
@@ -54,8 +114,8 @@ ul{
 .imgheader{
     margin-right: 20px;
     display: flex;
-    width: 20%;
-    height: 100%;
+    width: 25%;
+    height: 150px;
     justify-content: end;
 }
 .txtheader{
@@ -65,18 +125,19 @@ ul{
     font-size: 25px;
     color: aliceblue;
     display: flex;
-    width: 80%;
+    width: 75%;
     justify-content: center;
     vertical-align: middle;
 }
 .content {
     background-color: white;
-    min-height: 300px;
+    min-height: 350px;
     padding: 20px;
+    justify-content: center;
 }
 .footer {
     background-color: lightgrey;
-    min-height: 100px;
+    min-height: 80px;
     display: flex;
 }
 .reserved{
