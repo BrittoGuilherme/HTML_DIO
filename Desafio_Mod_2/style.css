@@ -12,11 +12,25 @@ ul li a{
     border-radius: 3px;
     transition: background-color 0.3s ease;
 }
-form{
+.container{
+    display: flex;
+    width: 50%;
+}
+.maps{
+    width: 50%;
+}
+.form{
     margin: 10px;
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+    min-width: 250px;
+}
+.infos{
+    width: 50%;
+    height: 150px;
 }
 label{
-    width: 100px;
     text-align: right;
     display: inline-block;
     padding-right: 5px;
@@ -24,12 +38,10 @@ label{
 input{
     border-color: rgb(172, 216, 252);
     border-radius: 10px;
-    display: inline-block;
-    padding-left: 50px;
 }
 button{
     margin: 5px;
-    font-size: large;
+    font-size:medium;
     background-color: aliceblue;
     border-color: rgb(172, 216, 252);
     border-radius: 10px;
@@ -133,7 +145,6 @@ table th{
     background-color: white;
     min-height: 350px;
     padding: 20px;
-    justify-content: center;
 }
 .footer {
     background-color: lightgrey;
