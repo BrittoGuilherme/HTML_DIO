@@ -12,24 +12,7 @@ ul li a{
     border-radius: 3px;
     transition: background-color 0.3s ease;
 }
-.container{
-    display: flex;
-    width: 50%;
-}
-.maps{
-    width: 50%;
-}
-.form{
-    margin: 10px;
-    width: 100%;
-    height: 200px;
-    display: inline-block;
-    min-width: 250px;
-}
-.infos{
-    width: 50%;
-    height: 150px;
-}
+
 label{
     text-align: right;
     display: inline-block;
